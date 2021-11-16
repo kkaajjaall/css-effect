@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>on scroll</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center> <h1> on scroll animation</h1></center>
+
+    <div class="main">
+       
+        <div class=" aa " data-aos="fade-right" data-aos-delay="00"> hii</div>
+        <div class="hellow aa" data-aos="zoom-in-up"  data-aos-delay="500"> helow</div>
+        <div class="by aa" data-aos="flip-left" data-aos-delay="200"> by</div>
+        <!-- <div class="see aa" data-aos="flip-right"> see</div> -->
+        <!-- <div class="see aa" data-aos="flip-up"> see</div>
+        <div class="see aa" data-aos="zoom-in-up"> see</div>
+        <div class="see aa" data-aos="zoom-in-down"> see</div>
+        <div class="see aa" data-aos="fade-up"
+        data-aos-duration="3000"> see</div>
+        <div class="see aa" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"> see</div>
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"> see</div> -->
+    </div>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                duration: 1500,
+                offset: 250,
+
+            }
+        );
+      </script>
+</body>
+</html>

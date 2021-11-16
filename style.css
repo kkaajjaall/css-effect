@@ -1,0 +1,20 @@
+.aa{
+    width: 25%;
+    height: 20vh;
+    margin: 80px auto;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    border:1px solid black;
+    box-shadow: 3px 13px 13px gray;
+}
+.main{
+    width: 100%;
+    margin: 10px auto;
+    place-items: left;
+    border:1px solid red;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+}
